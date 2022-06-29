@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 interface LessonType {
     title: string;
-    slug: string;
+    slug?: string | null;
     availableAt: Date;
     type: 'live' | 'class';
 }
